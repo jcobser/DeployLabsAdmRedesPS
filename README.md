@@ -32,4 +32,20 @@ Los demás scripts son necesarios por los scripts de los pasos.
 ### Scripts en Cliente
 |Paso | Script | Observaciones |
 |:-:|--------|--------------|
-| 1 | ConfiguracionCliente.ps1 | .\Configuracioncliente -Puesto (1..31) |
+| 1 | ConfiguracionCliente.ps1 | .\Configuracioncliente -PuestoLaboratorio (1..31) -NumeroEquipo (0..99) -IpEstatica |
+
+El script genera automáticamente el nombre del cliente Windows a partir del número de puesto de laboratorio (igual que el puesto de CDW01 y CDW02), y el número de equipo. Para la dirección IP se suma 20 al número de equipo para que no coincidan las IPs.
+
+> El script no controla duplicados de nombres.
+
+**Sintaxis**
+
+```powershell
+.\configuracioncliente.ps1 -PuestoLaboratorio __integer__ -NumeroEquipo __integer__ [-IpEstatica]
+```
+
+**Ejemplo**
+
+```powershell
+.\configuracioncliente.ps1 -PuestoLaboratorio 12 -NumeroEquipo 12 -IpEstatica
+```
