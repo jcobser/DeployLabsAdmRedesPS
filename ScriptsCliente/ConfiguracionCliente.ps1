@@ -4,9 +4,9 @@
 ####
 ####
 #### Configuración de los primeros pasos para un 
-#### CDW01
+#### cliente de dominio
 ####
-#### Paso1
+####
 ####
 #### Copiar el Script a Documentos\Scripts\
 ####
