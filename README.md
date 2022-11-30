@@ -2,7 +2,7 @@
 Scritps para la implementación rápida de dos controladores de dominio en un aula. 
 ## Implementación
 Se deben copiar los scrips de cada servidor (CDW01 y CDW02) en la carpeta de documentos del "Administrador"
-> Cada script creará un registro para lanzar el siguiente.
+> Cada script de CDW01 y CDW=2 creará un registro para lanzar el siguiente.
 
 ### Scripts de ScriptsCDW01
 |Paso | Script | Observaciones |
@@ -27,3 +27,9 @@ Los demás scripts son necesarios por los scripts de los pasos.
 
 - **CreaGrupoTrabajo.ps1** crea los grupos necesarios y la carpeta de grupo de trabajo dentro del servidor de ficheros.
 - **CreacionCarpetaParticular.ps1** crea la carpeta particular del usuario según la normativa.
+
+
+### Scripts en Cliente
+|Paso | Script | Observaciones |
+|:-:|--------|--------------|
+| 1 | ConfiguracionCliente.ps1 | .\Configuracioncliente -Puesto (1..31) |
