@@ -2,7 +2,7 @@
 Scritps para la implementación rápida de dos controladores de dominio en un aula. 
 ## Implementación
 Se deben copiar los scrips de cada servidor (CDW01 y CDW02) en la carpeta de documentos del "Administrador"
-> Cada script de CDW01 y CDW=2 creará un registro para lanzar el siguiente.
+> Cada script de CDW01 y CDW02 creará un registro para lanzar el siguiente.
 
 ### Scripts de ScriptsCDW01
 |Paso | Script | Observaciones |
