@@ -1,4 +1,4 @@
-# DeploLabsAdmRedesPS
+# DeployLabsAdmRedesPS
 Scritps para la implementación rápida de dos controladores de dominio en un aula. 
 ## Implementación
 Se deben copiar los scrips de cada servidor (CDW01 y CDW02) en la carpeta de documentos del "Administrador"
